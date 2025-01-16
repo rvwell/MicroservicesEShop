@@ -1,10 +1,39 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatalogAPI", "Services\Catalog\CatalogAPI\CatalogAPI.csproj", "{9BA25A4A-E3BE-4292-AD2D-422DDAFEE51A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{961772DA-0885-4556-99F9-8D66BCF57848}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{D50CE985-57E1-4520-8F02-B219E7C7EEB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{5F0D3AB7-7B57-4240-85E5-D5390B95AD28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildingBlocks", "BuildingBlocks\BuildingBlocks\BuildingBlocks.csproj", "{6372F91A-8798-4EA6-8AD7-06B46F75B506}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BA25A4A-E3BE-4292-AD2D-422DDAFEE51A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA25A4A-E3BE-4292-AD2D-422DDAFEE51A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA25A4A-E3BE-4292-AD2D-422DDAFEE51A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA25A4A-E3BE-4292-AD2D-422DDAFEE51A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6372F91A-8798-4EA6-8AD7-06B46F75B506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6372F91A-8798-4EA6-8AD7-06B46F75B506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6372F91A-8798-4EA6-8AD7-06B46F75B506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6372F91A-8798-4EA6-8AD7-06B46F75B506}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BA25A4A-E3BE-4292-AD2D-422DDAFEE51A} = {D50CE985-57E1-4520-8F02-B219E7C7EEB0}
+		{D50CE985-57E1-4520-8F02-B219E7C7EEB0} = {961772DA-0885-4556-99F9-8D66BCF57848}
+		{6372F91A-8798-4EA6-8AD7-06B46F75B506} = {5F0D3AB7-7B57-4240-85E5-D5390B95AD28}
 	EndGlobalSection
 EndGlobal
